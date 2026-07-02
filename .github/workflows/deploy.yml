@@ -1,0 +1,7 @@
+mkdir dg-daily-report && cd dg-daily-report
+git init
+
+git add .
+git commit -m "Initial deploy: DG Daily Report"
+git remote add origin https://github.com/YOUR_USERNAME/dg-daily-report.git
+git push -u origin main
